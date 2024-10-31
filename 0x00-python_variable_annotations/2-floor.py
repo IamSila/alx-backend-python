@@ -10,7 +10,8 @@ returns the floor of the float
 
 def floor(n: float) -> int:
     """
-    returns the floor of n
+    param a: n which is the float to be floored
+    return: an int value which is the floored value of n
     """
 
     return math.floor(n)
