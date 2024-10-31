@@ -1,4 +1,4 @@
-from math import floor
+num = [1, 2, 3, 4, 5, 6, 7]
 
-num = 9.9
-print(type(str(num)))
+for value in num:
+    print(value)
