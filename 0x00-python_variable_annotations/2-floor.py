@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-import math
-
 """
 Write a type-annotated function floor
 which takes a float n as argument and
@@ -14,4 +12,4 @@ def floor(n: float) -> int:
     return: an int value which is the floored value of n
     """
 
-    return math.floor(n)
+    return int(n)
